@@ -1,3 +1,5 @@
+#### This is a basic guide to setting up a basic webapp. Anyone can make edits, but please don't provide codeblock solutions. This guide is meant to be followed using google for any facets or terms you may not understand. 
+
 ## step 1: Directory
   Make a folder, name it something like 'myapp'
   I strongly suggest never using spaces to name folders. You can camelCase kebab-case or under_case
