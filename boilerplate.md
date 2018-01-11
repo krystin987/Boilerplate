@@ -25,8 +25,10 @@
   Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, google it. I never sit there and type out the first 10 lines of html, but it is helpful to type it out when you first start coding.
 
   It'll look something like:
-    ```<!DOCTYPE html>```
-    ```<html>```
+
+    ```<!DOCTYPE html>
+
+       <html>....```
 
   And, it'll end with ```</html>``` and in between there's like a head, a meta tag, and a body. Stuff like that. If there's any need for disambiguation, go for HTML5.
 
