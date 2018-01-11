@@ -22,17 +22,17 @@
   The names should always be lower case, but that's a personal style preference. Whether styles is plural is singular, and anything else, is purely choosing your own adventure.
 
 ## step 3: HTML Boilerplate
-  Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, google is what I do 100% of the time. I never sit there and type out the first 10 lines of html.
+  Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, google it. I never sit there and type out the first 10 lines of html, but it is helpful to type it out when you first start coding.
 
   It'll look something like:
-    <!DOCTYPE html>
-    <html>
+    ```<!DOCTYPE html>
+    <html>```
 
-  And, it'll end with </html> and in between there's like a head, a meta tag, and a body. Stuff like that. If there's any need for disambiguation, go for HTML5.
+  And, it'll end with ```</html>``` and in between there's like a head, a meta tag, and a body. Stuff like that. If there's any need for disambiguation, go for HTML5.
 
 ## Step 4: CSS linking and testing
 
-  Connect the css file. You'll use a link tag in the html file, right under the meta tag. It'll have details such as a pointer to the file in your tree. When it's in the same place as index.html, it'll be something like "styles.css" without any folder syntax. If it were in a css file by itself (or with a mess of css files) it would be more like ""./css/styles.css" where css is the folder name, etc.
+  Connect the css file. You'll use a link tag in the html file, right under the meta tag. It'll have details such as a pointer to the file in your tree. When it's in the same place as index.html, it'll be something like ```"styles.css"``` without any folder syntax. If it were in a css file by itself (or with a mess of css files) it would be more like ```"./css/styles.css"``` where css is the folder name, etc.
 
   After that, you'll want to make sure this thing is even working. In the css file, add any kind of styling on the body. Usually, I select for the body and give it a ```background-color: magenta;``` or something like that. *NOTE: The text appears as a codeblock because I used 3 tickmarks - a somewhat universal syntax to designate a code block where markup is permitted. It can be used in email and other places (slack, even facebook messenger) to share code snippets.*
 
