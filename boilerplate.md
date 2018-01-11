@@ -4,11 +4,11 @@
   Make a folder, name it something like 'myapp'
   I strongly suggest never using spaces to name folders. You can use any of the following:
 
-  camelCase
+  ```camelCase```
 
-  kebab-case
+  ```kebab-case```
 
-  under_case
+  ```under_case```
 
 ## step 2: Files
   Make 3 files:
