@@ -1,8 +1,8 @@
-#step 1: Directory
+# step 1: Directory
   Make a folder, name it something like 'myapp'
   I strongly suggest never using spaces to name folders. You can camelCase kebab-case or under_case
 
-#step 2: Files
+# step 2: Files
   Make 3 files
     index.html
     styles.css
@@ -10,7 +10,7 @@
 
   The names should always be lower case, but that's a personal style preference. Whether styles is plural is singular, and anything else, is purely choosing your own adventure.
 
-#step 3: HTML Boilerplate
+# step 3: HTML Boilerplate
   Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, google is what I do 100% of the time. I never sit there and type out the first 10 lines of html.
 
   It'll look something like:
@@ -19,7 +19,7 @@
 
   And, it'll end with </html> and in between there's like a head, a meta tag, and a body. Stuff like that. If there's any need for disambiguation, go for HTML5.
 
-#Step 4: CSS linking and testing
+# Step 4: CSS linking and testing
 
   Connect the css file. You'll use a link tag in the html file, right under the meta tag. It'll have details such as a pointer to the file in your tree. When it's in the same place as index.html, it'll be something like "styles.css" without any folder syntax. If it were in a css file by itself (or with a mess of css files) it would be more like ""./css/styles.css" where css is the folder name, etc.
 
@@ -27,7 +27,7 @@
 
   Open the index.html file, it'll render in a browser, and if the background is the color you picked, it should prove the files are working. If not, debug and figure out why, then fix it.
 
-#Step 5: JavaScript linking and testing
+# Step 5: JavaScript linking and testing
 
   In the html file, before the closing </body> tag, is where you add the link to the javascript file. It will be a <script> tag with a closing </script> tag with some src="" linking in between. Google, as always.
 
