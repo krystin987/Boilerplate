@@ -53,8 +53,10 @@ This is the basic framework for doing anything you want with a webapp. These fil
 
 Once you have the basic boilerplate, you can copy it every time you go to make a website (or app, depending on the architecture). You may even come up with a more robust version of your own 'basic' layout that you reuse. The key factors are making the pages 'talk' via those script and link tags. That's how files can see one another and have access to their tools.
 
-HTML is always layout (think newspapers, top to bottom in general, sometimes some annoying widgets, such as ads, on the sides)
-CSS is always styling ([CSS Zen Garden](http://www.csszengarden.com/) is a great reference for proving styling is completely handled in css)
-JavaScript is the behavior (buttons, input boxes, literally anything user interaction)
+HTML is always layout (think newspapers, top to bottom in general, sometimes some annoying widgets, such as ads, on the sides).
+
+CSS is always styling ([CSS Zen Garden](http://www.csszengarden.com/) is a great reference for proving styling is completely handled in css).
+
+JavaScript is the behavior (buttons, input boxes, literally anything user interaction).
 
 If you're feeling really froggy, or you want me to look at a bug (in this, or anything else) make a repository on github and put it there. Same with the boilerplates you decide on. Once there's a remote repository they'll always be there, ready to use.
