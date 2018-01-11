@@ -28,7 +28,7 @@
 
   Connect the css file. You'll use a link tag in the html file, right under the meta tag. It'll have details such as a pointer to the file in your tree. When it's in the same place as index.html, it'll be something like "styles.css" without any folder syntax. If it were in a css file by itself (or with a mess of css files) it would be more like ""./css/styles.css" where css is the folder name, etc.
 
-  After that, you'll want to make sure this thing is even working. In the css file, add any kind of styling on the body. Usually, I select for the body and give it a ```background-color: magenta;``` or something like that. *NOTE: The 3 tickmarks are kind of a universal syntax to designate a code block. It can be used in email and other places (slack, even facebook messenger) to share code snippets.*
+  After that, you'll want to make sure this thing is even working. In the css file, add any kind of styling on the body. Usually, I select for the body and give it a ```background-color: magenta;``` or something like that. *NOTE: The text appears as a codeblock because I used 3 tickmarks - a somewhat universal syntax to designate a code block where markup is permitted. It can be used in email and other places (slack, even facebook messenger) to share code snippets.*
 
   Open the index.html file, it'll render in a browser, and if the background is the color you picked, it should prove the files are working. If not, debug and figure out why, then fix it.
 
