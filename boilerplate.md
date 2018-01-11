@@ -8,8 +8,6 @@
 
   kebab-case
 
-  or
-
   under_case
 
 ## step 2: Files
