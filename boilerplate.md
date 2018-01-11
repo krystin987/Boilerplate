@@ -26,9 +26,9 @@
 
   It'll look something like:
 
-    ```<!DOCTYPE html>
+    <!DOCTYPE html>
 
-       <html>.... ```
+    <html> 
 
   And, it'll end with ```</html>``` and in between there's like a head, a meta tag, and a body. Stuff like that. If there's any need for disambiguation, go for HTML5.
 
