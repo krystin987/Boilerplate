@@ -2,7 +2,15 @@
 
 ## step 1: Directory
   Make a folder, name it something like 'myapp'
-  I strongly suggest never using spaces to name folders. You can camelCase kebab-case or under_case
+  I strongly suggest never using spaces to name folders. You can use any of the following:
+
+  ```camelCase
+
+  kebab-case
+
+  or
+
+  under_case```
 
 ## step 2: Files
   Make 3 files:
