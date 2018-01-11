@@ -1,13 +1,16 @@
-#### This is a basic guide to setting up a basic webapp. Anyone is free to clone this repo and submit pull requests for edits (in fact, it's encouraged), but please don't provide codeblock solutions. This guide is meant to be followed using google for any facets or terms you may not understand. 
+#### This is a basic guide to setting up a basic webapp. Anyone is free to clone this repo and submit pull requests for edits (in fact, it's encouraged), but please don't provide codeblock solutions. This guide is meant to be followed using google for any facets or terms you may not understand.
 
 ## step 1: Directory
   Make a folder, name it something like 'myapp'
   I strongly suggest never using spaces to name folders. You can camelCase kebab-case or under_case
 
 ## step 2: Files
-  Make 3 files
+  Make 3 files:
+
     index.html
+
     styles.css
+
     scripts.js
 
   The names should always be lower case, but that's a personal style preference. Whether styles is plural is singular, and anything else, is purely choosing your own adventure.
