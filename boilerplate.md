@@ -19,7 +19,7 @@
 
     scripts.js
 
-  The names should always be lower case, but that's a personal style preference. Whether styles is plural is singular, and anything else, is purely choosing your own adventure.
+  The names should always be lower case, but that's a personal style preference. Whether the ```'styles.css``` filename is plural or singular, and anything else, is purely choosing your own adventure.
 
 ## step 3: HTML Boilerplate
   Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, google it. I never sit there and type out the first 10 lines of html, but it is helpful to type it out when you first start coding.
