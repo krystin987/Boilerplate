@@ -49,7 +49,7 @@
 
 ## Conclusion
 
-This is the basic framework for doing anything you want with a webapp. These files working together **are** a webapp. Just that little alert showing up is a webapp. From here, you can fiddle around however you want. Getting used to this basic setup will help a ton moving forward, because it's never going away.
+This is the basic framework for doing anything you want with a webapp. These files working together **are** a webapp. Just that little alert showing up is a webapp. From here, you can fiddle around however you want. Getting used to this basic setup will help a ton moving forward, because it's not going away too soon.
 
 Once you have the basic boilerplate, you can copy it every time you go to make a website (or app, depending on the architecture). You may even come up with a more robust version of your own 'basic' layout that you reuse. The key factors are making the pages 'talk' via those script and link tags. That's how files can see one another and have access to their tools.
 
