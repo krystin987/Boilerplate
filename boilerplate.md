@@ -1,4 +1,4 @@
-#### This is a basic guide to setting up a basic webapp. Anyone is free to clone this repo and submit pull requests for edits (in fact, it's encouraged), but please don't provide codeblock solutions. This guide is meant to be followed using google for any facets or terms you may not understand.
+#### This is a basic guide to setting up a basic webapp. Anyone is free to clone this repo and submit pull requests for edits (in fact, it's encouraged), but please don't provide codeblock solutions. This guide is meant to be followed using the internet to search for any facets or terms you may not understand.
 
 ## step 1: Directory
   Make a folder, name it something like 'myapp'
@@ -19,10 +19,10 @@
 
     scripts.js
 
-  The names should always be lower case, but that's a personal style preference. Whether the ```'styles.css``` filename is plural or singular, and anything else, is purely choosing your own adventure.
+  The names should always be lower case, but that's a personal style preference, not an actual rule. Whether the ```'styles.css``` filename is plural or singular, and anything else, is purely choosing your own adventure.
 
 ## step 3: HTML Boilerplate
-  Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, google it. I never sit there and type out the first 10 lines of html, but it is helpful to type it out when you first start coding.
+  Put any old html boilerplate into the index.html file. In the atom text editor, if you type 'ht' followed by tab, it'll give you some boilerplate. Otherwise, search for it on the internet. MDN and W3C Schools will typically have solid information. I never sit there and type out the first 10 lines of html, but it is helpful to type it out when you first start coding.
 
   It'll look something like:
 
@@ -42,7 +42,7 @@
 
 ## Step 5: JavaScript linking and testing
 
-  In the html file, before the closing ```</body>``` tag, is where you add the link to the javascript file. It will be a ```<script>``` tag with a closing ```</script>``` tag with some ```src=""``` linking in between. Google, as always.
+  In the html file, before the closing ```</body>``` tag, is where you add the link to the javascript file. It will be a ```<script>``` tag with a closing ```</script>``` tag with some ```src=""``` linking in between. You can always search for it on the internet.
 
   Once the script tag exists above the closing body tag, open the ```scripts.js``` file and add an alert event to assure the javascript file is hooked up. There's no need for a parent function or any super hardcore syntax. A simple ```alert("message");``` is all you need to create the desire feedback. Because JavaScript works directly on the 'document' which is just fancy talk for the webpage window itself. You test it by opening or refreshing the index.html page.
 
