@@ -43,7 +43,7 @@
 
 ## Step 5: JavaScript linking and testing
 
-  In the html file, before the closing ```</body>``` tag, add the link to the javascript file. It will be a ```<script>``` tag with a closing ```</script>``` tag with some ```src=""``` linking in between. You can always search for it on the internet. This goes at the bottom of the body for document loading reasons and many others that can also be found on the internet. 
+  In the html file, before the closing ```</body>``` tag, add the link to the javascript file. It will be a ```<script>``` tag with a closing ```</script>``` tag with some ```src="ihartpokemon.js"``` linking in between. You can always search for it on the internet. This goes at the bottom of the body for document loading reasons and many others that can also be found on the internet. 
 
   Once the script tag exists above the closing body tag, open the ```scripts.js``` file and add an alert event to assure the javascript file is hooked up. There's no need for a parent function or any complicated coding. A simple ```alert("message");``` is all you need to create the desire feedback. It can be the only line on othe whole page because JavaScript works directly on the document (the document is the webpage itself). You can test for the desired behavior by opening or refreshing the index.html page. 
 
