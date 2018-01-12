@@ -1,4 +1,5 @@
-#### This is a basic guide to setting up a basic webapp. Anyone is free to clone this repo and submit pull requests for edits (in fact, it's encouraged), but please don't provide codeblock solutions. This guide is meant to be followed using the internet to search for any facets or terms you may not understand.
+### This is a basic guide to setting up a basic webapp. 
+#####Anyone is free to clone this repo and submit pull requests for edits (in fact, it's encouraged), but please don't provide codeblock solutions. This guide is meant to be followed using the internet to search for any facets or terms you may not understand.
 
 ## step 1: Directory
   Make a folder, name it something like 'myapp'
@@ -34,29 +35,29 @@
 
 ## Step 4: CSS linking and testing
 
-  Connect the css file. You'll use a link tag in the html file, right under the meta tag. It'll have details such as a pointer to the file in your tree. When it's in the same place as index.html, it'll be something like ```"styles.css"``` without any folder syntax. If it were in a css file by itself (or with a mess of css files) it would be more like ```"./css/styles.css"``` where css is the folder name, etc.
+  Link the css file. You'll use a link tag in the html file, right under the meta tag. It'll have details such as a path to the file in your directory. When it's in the same directory as index.html, it'll be something like ```"styles.css"``` without any folder pathing. If it were in a separate directory, it would have a path, such as: ```"css/styles.css"``` where css is the sub-directory name.
 
-  After that, you'll want to make sure this thing is even working. In the css file, add any kind of styling on the body. Usually, I select for the body and give it a ```background-color: magenta;``` or something like that. *NOTE: The text appears as a codeblock because I used 3 tickmarks - a somewhat universal syntax to designate a code block where markup is permitted. It can be used in email and other places (slack, even facebook messenger) to share code snippets. You can view the raw version of this file here on github (top righthand side) to see how the markdown syntax is affecting editing.*
+  After that, you'll want to test if this thing is even working before doing too much more work. In the css file, add any kind of styling on the body. Usually, I select for the body and give it a ```background-color: magenta;``` or something like that. *NOTE: The text appears as a codeblock because I used 3 tickmarks - a somewhat universal syntax to designate a code block where markup is permitted. It can be used in email and other places (slack, even facebook messenger) to share code snippets. You can view the raw version of this file here on github (top righthand side) to see how the markdown syntax is affecting editing.*
 
-  Open the index.html file, it'll render in a browser, and if the background is the color you picked, it should prove the files are working. If not, debug and figure out why, then fix it.
+  Open the index.html file. It should automatically render in your default browser. If the background is the color you picked, it proves the HTML and CSS are working. If not, debug and figure out why, then fix it. Start with the link tags. Where are they? Do I need a closing tag? Why? Why not?
 
 ## Step 5: JavaScript linking and testing
 
-  In the html file, before the closing ```</body>``` tag, is where you add the link to the javascript file. It will be a ```<script>``` tag with a closing ```</script>``` tag with some ```src=""``` linking in between. You can always search for it on the internet.
+  In the html file, before the closing ```</body>``` tag, add the link to the javascript file. It will be a ```<script>``` tag with a closing ```</script>``` tag with some ```src=""``` linking in between. You can always search for it on the internet. This goes at the bottom of the body for document loading reasons and many others that can also be found on the internet. 
 
-  Once the script tag exists above the closing body tag, open the ```scripts.js``` file and add an alert event to assure the javascript file is hooked up. There's no need for a parent function or any super hardcore syntax. A simple ```alert("message");``` is all you need to create the desire feedback. Because JavaScript works directly on the 'document' which is just fancy talk for the webpage window itself. You test it by opening or refreshing the index.html page.
+  Once the script tag exists above the closing body tag, open the ```scripts.js``` file and add an alert event to assure the javascript file is hooked up. There's no need for a parent function or any complicated coding. A simple ```alert("message");``` is all you need to create the desire feedback. It can be the only line on othe whole page because JavaScript works directly on the document (the document is the webpage itself). You can test for the desired behavior by opening or refreshing the index.html page. 
 
 
 ## Conclusion
 
-This is the basic framework for doing anything you want with a webapp. These files working together **are** a webapp. Just that little alert showing up is a webapp. From here, you can fiddle around however you want. Getting used to this basic setup will help a ton moving forward, because it's not going away too soon.
+This is the basic framework for creating an end user facing webapp. These files linked together with a layout, style, and user interaction behaviors **are** a webapp, even if the only behavior is a box that pops up with a link to a Rick Astley video. From here, building out a page can begin. Getting used to this basic setup will help a ton moving forward.
 
-Once you have the basic boilerplate, you can copy it every time you go to make a website (or app, depending on the architecture). You may even come up with a more robust version of your own 'basic' layout that you reuse. The key factors are making the pages 'talk' via those script and link tags. That's how files can see one another and have access to their tools.
+Once you have the basic boilerplate, you can copy it every time you make a webapp. You may want to come up with a more robust version of your own 'basic' layout that you reuse. The main goal here is linking the files together using proper script and link tags. That's how files can see one another and have access to their instructions.
 
-HTML is always layout (think newspapers, top to bottom in general, sometimes some annoying widgets, such as ads, on the sides).
+HTML is the **layout** of a website or app. Think: newspapers, top to bottom in general, sometimes with side widgets, such as ads.
 
-CSS is always styling ([CSS Zen Garden](http://www.csszengarden.com/) is a great reference for proving styling is completely handled in css).
+CSS is how a webpage is **styled** ([CSS Zen Garden](http://www.csszengarden.com/) is a great reference for proving styling is completely handled in css).
 
-JavaScript is the behavior (buttons, input boxes, literally anything user interaction).
+JavaScript is the **behavior** created for (or by) user interaction. (buttons, input boxes, animated paper clips of the future).
 
-If you're feeling really froggy, or you want me to look at a bug (in this, or anything else) make a repository on github and put it there. Same with the boilerplates you decide on. Once there's a remote repository they'll always be there, ready to use.
+If you're feeling bold, or you want me to look at a bug (in this, or anything else) make a repository on github and send me a link. 
